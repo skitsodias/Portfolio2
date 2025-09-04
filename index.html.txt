@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Skitso Dias</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="assets/images/favicon.ico" />
+  <script defer src="scripts.js"></script>
+</head>
+<body>
+
+  <header class="banner">
+    <h1>Skitso Dias</h1>
+  </header>
+
+  <nav class="navbar">
+    <div class="dropdown">
+      <a href="#">Portfolio</a>
+      <div class="dropdown-content">
+        <a href="2d.html">2D Animation</a>
+        <a href="art.html">Art</a>
+        <a href="design.html">Design</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <section class="gallery">
+      <img src="assets/images/placeholder1.jpg" alt="Art 1" />
+      <img src="assets/images/placeholder2.jpg" alt="Art 2" />
+      <img src="assets/images/placeholder3.jpg" alt="Art 3" />
+      <img src="assets/images/placeholder4.jpg" alt="Art 4" />
+      <img src="assets/images/placeholder5.jpg" alt="Art 5" />
+      <img src="assets/images/placeholder6.jpg" alt="Art 6" />
+      <img src="assets/images/placeholder7.jpg" alt="Art 7" />
+      <img src="assets/images/placeholder8.jpg" alt="Art 8" />
+    </section>
+
+    <section class="contact">
+      <form id="contact-form">
+        <h2>Contact Me</h2>
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+
+      <div id="confirmation" style="display: none; opacity: 0;">
+        ✅ Thank you! Your message has been sent. I’ll get back to you as soon as possible.
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    © 2025 Skitso Dias
+  </footer>
+
+</body>
+</html>

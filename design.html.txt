@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Design - Skitso Dias</title>
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="images/favicon.ico">
+<script defer src="script.js"></script>
+</head>
+<body>
+
+<div class="banner">
+  <h1>Design</h1>
+</div>
+
+<div class="navbar">
+  <div class="dropdown">
+    <a href="#">Portfolio</a>
+    <div class="dropdown-content">
+      <a href="2d.html">2D Animation</a>
+      <a href="art.html">Art</a>
+      <a href="design.html">Design</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </div>
+</div>
+
+<div class="gallery">
+  <img src="images/placeholder1.jpg" alt="Design 1">
+  <img src="images/placeholder2.jpg" alt="Design 2">
+  <img src="images/placeholder3.jpg" alt="Design 3">
+  <img src="images/placeholder4.jpg" alt="Design 4">
+  <img src="images/placeholder5.jpg" alt="Design 5">
+  <img src="images/placeholder6.jpg" alt="Design 6">
+</div>
+
+<footer>© 2025 Skitso Dias</footer>
+
+</body>
+</html>
